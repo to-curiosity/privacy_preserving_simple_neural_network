@@ -1,0 +1,2 @@
+# privacy_preserving_simple_neural_network
+Basic Neural Network application of homomorphic encryption
