@@ -17,7 +17,7 @@ You will need all the files in the root folder
 - -> data_to_test,_ := ReadSpecificRow("mnist_test.csv", 497)   //line 432 in the main.go file
 - 2.) run the following command: go run main.go homomorphic_encryption_stuffs.go
 
-  ** If you want to retrain the model, you need to remove or rename "nn_weights.gob".
+  ** If you want to retrain the model, you need to remove or rename "nn_weights.gob". A new file will be generated upon retraining.
 
 
 youtube video for additional info: https://youtu.be/9Ne0RSymm-g?si=PusZL3tvv969AhRv
