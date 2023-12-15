@@ -208,7 +208,7 @@ func (nn *NeuralNetwork) Forward_enc(input, weightsIH, weightsHO [][]float64) {
 	weights_HO := ConvertFloat64MatrixToInt64(weightsHO)
 	hiddenOutputs_array2 := ConvertFloat64MatrixToInt64(hiddenOutputs_array)
 	finalOutputs := encrypted_mult(weights_HO,hiddenOutputs_array2, T)
-	fmt.Println("Encypted finalOutputs Result: ",finalOutputs)
+	fmt.Println("FinalOutputs before sigmoid: ",finalOutputs)
 
 	finalOutputs_array := make([][]float64, len(finalOutputs))
 	FO_arr := ConvertInt64ToFloat64Matrix(finalOutputs)
