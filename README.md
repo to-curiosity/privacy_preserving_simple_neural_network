@@ -11,11 +11,12 @@ Basic Neural Network application of homomorphic encryption...
 
 
 ///////////////////////------------------------------------------------------------ Run code ------------------------------------------------------------///////////////////////
-You will need all the files in the root folder
-- To run
-- 1.) slect a row number in the train.csv file to pridict, or create your own 28x28 image with a written number. Make sure to convert to a csv
+You will need all the files in the root folder, the model is already trained and the weights are in the nn_weights.gob file
+- 0.) To run, use the following command: go run main.go homomorphic_encryption_stuffs.go
+To make you're own preditions...
+- 1.) slect a row number in the train.csv file to pridict, 
 - -> data_to_test,_ := ReadSpecificRow("mnist_test.csv", 497)   //line 432 in the main.go file
-- 2.) run the following command: go run main.go homomorphic_encryption_stuffs.go
+- -> OR create your own 28x28 image with a written number. Make sure to convert to a csv
 
   ** If you want to retrain the model, you need to remove or rename "nn_weights.gob". A new file will be generated upon retraining.
 
