@@ -21,4 +21,4 @@ To make you're own preditions...
   ** If you want to retrain the model, you need to remove or rename "nn_weights.gob". A new file will be generated upon retraining.
 
 
-youtube video for additional info: https://youtu.be/9Ne0RSymm-g?si=PusZL3tvv969AhRv
+
